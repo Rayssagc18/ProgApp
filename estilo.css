@@ -1,4 +1,8 @@
-h1{
+.classeH2{
+    font-size: 60pt;
+    color: chartreuse;
+}
+    h1{
     color: blue;
     border: 2px solid black;
 }
@@ -7,6 +11,6 @@ button{
     font-size: 20pt;
 }
 p {
-    color: sienna;
+    color:green;
     margin-left: 9px;
 }
