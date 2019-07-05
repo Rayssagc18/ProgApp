@@ -1,0 +1,1 @@
+document.getElementById("Foto").src = "img/Asuna.jpg";
