@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script language = "Javascript">
+            //função
+            function naoToque(){
+                alert("Porque tocou em mim");
+            }
+    
+                function acender(){
+                    document.getElementById("luz").src="img/Yui.jpg"
+            }
+
+            function apaga(){
+                document.getElementById("luz").src="img/Sinon 3 vezes.jpg"
+            }
+
+            </script>
+    </head>
+    <body>
+        <!--Invoca a função no onclick, quando a pessoa clica solta um alerta-->
+        <img src = "img/TOP TOP.jpg" width="500" height="500" onclick= "naoToque()">
+        <img src = "img/S2.jpg" width="500" height="500" id="luz" onmousemove="acender()"
+              onmouseout="apaga()">
+    </body>
+</html>
